@@ -191,9 +191,9 @@ The first example is where people usually succumb to the EXCUSE of using 'auto' 
 
 ```
 
-With auto we gained a _little_ readability at the _HUGE_ expense of KNOWING what the actual fucking types are.
+With auto we gained a _little_ readability at the HUGE _expense_ of NOT KNOWING what the actual fucking types are.
 
-Again, let's clean this crap up.
+Again, let's first align this crap.
 
 ```
     // ====================================================================
@@ -211,7 +211,7 @@ Again, let's clean this crap up.
     }
 ```
 
-This code is SLOWLY getting better but still cluttered.  Namely, verbose names and that stupid duration cast.
+This code is SLOWLY getting better but still WAY too cluttered.  Namely, verbose names and that stupid duration cast.
 
 So how do we proceed cleaning up this junk?
 
